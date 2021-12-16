@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+
+.nav-base {
+  background-color: blue;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.navbar-item {
+  color:white;
+  padding: 20px;
+  text-decoration: none;
+  background-color: transparent;
+  border:none;
+}
+.navbar-item:hover {
+  color: #bfbfbf;
+}
+
+.footer-base {
+  position:relative;
+  width:100%;
+  height:60px; 
+  background:#6cf;
+  text-align: center;
+  padding:15px;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.detail-image {
+  max-width: 500px;
+  max-height: 500px;
+  padding: 30px;
+}
+
+.detail-container {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+}
+
+.link-button {
+  padding: 7px;
+  border-radius: 15%;
+  background-color: blue;
+  text-decoration: none;
+  color:white;
+}
+.link-button:hover {
+  background-color: darkblue;
+  color:white;
+}
+
+.delete-button {
+  margin-left: auto;
+  background-color: red;
+  margin-right: 5px;
+  border: none;
+  padding:3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border:1px solid black
+}
+.delete-button:hover {
+  color:lightgray;
+  border-color: lightgray;
+  background-color: darkred;
+}
+
+.submit-button {
+  background-color:green;
+  border:none;
+  border-radius: 15%;
+  color: white;
+  padding: 7px;
+  margin-top:10px;
+}
+.submit-button:hover {
+  background-color: darkgreen;
+}
+
+.plus-minus-button-container {
+  font-size: 22px;
+}
+.plus-minus-button {
+  background-color: transparent;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.plus-minus-button:hover {
+  color:gray;
+  background-color: #f2f2f2;
+}
+.plus-minus-button:disabled {
+  color:gray;
+  background-color: #f2f2f2;
+  cursor:unset
+}
+
+.search-settings {
+  position:fixed;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 340px;
+  background-color:rgb(246, 246, 255);
+}
+
+.searchbar {
+  width: 270px;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.checkboxes {
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price-range {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-panel {
+  width: 500px;
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color:rgb(246, 246, 255);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.signout-text {
+  cursor: pointer;
+}
+
+.cart-detail {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.cart-detail-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.cart-detail-img:hover {
+  cursor: pointer;
+}
+
+.error-message {
+  color:red;
+  text-align: center;
+}
+
+.cart-tag:hover {
+  color:darkblue;
+  cursor: pointer;
+}
